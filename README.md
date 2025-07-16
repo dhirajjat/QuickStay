@@ -1,12 +1,35 @@
-# React + Vite
+# 🏨 QuickStay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**QuickStay** is a fully responsive hotel booking web app built with **React**, **Tailwind CSS**, and **Clerk** for user authentication. It offers a user-friendly interface to explore hotel rooms, filter listings, and manage bookings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Fully responsive landing page
+- 🔐 User authentication with **Clerk**
+- 🛏️ View all available rooms with clear layout
+- 🔍 Search rooms by **location** and **date**
+- 🎯 Filter rooms by **bed type** or **price range**
+- 📝 Dummy booking functionality
+- 👤 Logged-in users can view their booking details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### 🖼️ room Listings
+![Landing Page](src/screenshort/s1.png)
+
+### 🏨 Landing page
+![Room Listings](src/screenshort/s2.png)
+
+### 📅 Liasting Room
+![Date Filter](src/screenshort/s3.png)
+
+### 👤 User Dashboard
+![User Dashboard](src/screenshort/s4.png)
+
+git clone https://github.com/your-username/quickstay.git
+cd quickstay
+npm install
